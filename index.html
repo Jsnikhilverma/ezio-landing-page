@@ -55,12 +55,12 @@
   <section class="hero">
     <nav class="navbar navbar-expand-lg bg-white mb-5 ">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="index.html" style="margin-left: 60px;">
           <img src="images/EZILogo.png" alt="ezio_logo" width="120px" />
         </a>
         <div style="display: flex; justify-content: space-between; gap: 30px;">
           <a href="/" style="color: black; font-size: 500;">Home</a>
-          <a href="/contectus" style="color: black;">Contact Us</a>
+          <a href="/" style="color: black;">Contact Us</a>
           <a href="./BlogPage.html" style="color: black;">Blogs</a>
         </div>
       </div>
@@ -76,7 +76,7 @@
             <!-- Left Side Text - Show below form on mobile -->
             <div
               class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center my-align-item gap-4 text-center">
-              <h1 class="text-white display-4 fw-bold mt-5">
+              <h1 class="display-4 fw-bold mt-5" style="color: #56BC57;">
                 The Ezio Travel App, designed for traveller’s.
               </h1>
               <p class="text-white fs-5 mt-3 mb-5">
@@ -147,12 +147,8 @@
 
 
   <main class="container">
-    <div class="section-head col-sm-12">
+    <div class="section-head col-sm-12" style="color: #56BC57;">
       <h4><span>Explore Ezio Travel App for </span> All In One Services</h4>
-      <!-- <p>
-        Unlock your business potential with our mobile app development services! We create powerful mobile apps that
-        enhance user experience and drive engagement through expert app development tailored just for you.
-      </p> -->
     </div>
 
     <div class="owl-carousel owl-theme">
@@ -413,7 +409,7 @@
     style="background-image: url('images/Frame\ 51.svg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
     <div class="text-center">
       <p id="elevate_freelance" style="
-            color:white;
+            color:#56BC57;
             font-size: 35px;
             font-weight: bold;
             margin: 0px;
@@ -722,6 +718,29 @@
     </div>
   </div>
 </section>
+<!-- 3d cube -->
+
+<div class="container1">
+  <div class="mybox">
+    <!-- <div id="toggleBtn"></div> -->
+    <div id="shape" class="ring">
+      <div class="face one"> <img src="/images/EZILogo.png" alt="Face One"></div>
+      <!-- <div class="face two"> <img src="" alt="Face One"></div>
+      <div class="face three"> <img src="" alt="Face One"></div>
+      <div class="face four"> <img src="" alt="Face One"></div>
+      <div class="face five"> <img src="" alt="Face One"></div>
+      <div class="face six"> <img src="" alt="Face One"></div>
+      <div class="face seven"> <img src="" alt="Face One"></div>
+      <div class="face eight"> <img src="" alt="Face One"></div>
+      <div class="face nine"> <img src="" alt="Face One"></div>
+      <div class="face ten"> <img src="" alt="Face One"></div>
+      <div class="face eleven"> <img src="" alt="Face One"></div>
+      <div class="face twelve"> <img src="" alt="Face One"></div> -->
+    </div>
+  </div>
+</div>
+
+
 
 
 <!-- footer -->
@@ -760,6 +779,14 @@
     </div>
   </div>
 </footer>
+<script> src = "https://code.jquery.com/jquery-3.6.0.min.js" ></script>
+<script>
+    $(document).ready(function () {
+      $("#toggleBtn").click(function () {
+        $("#shape").toggleClass("cube ring");
+      });
+    });
+</script>
 <script>
   function createBlog() {
     axios
