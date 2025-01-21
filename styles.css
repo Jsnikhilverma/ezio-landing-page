@@ -964,15 +964,12 @@ button.show-more:hover {
 
 
 }
-.card-text{
-  width:50%;
 
-}
 
 
 
 .card img {
-  width: 300px; /* Adjust width of the image */
+  width: auto; /* Adjust width of the image */
   border-radius: 10px; /* Rounded corners for image */
 }
 
@@ -987,9 +984,6 @@ button.show-more:hover {
 
 .card p {
   font-size: 20px; /* Font size for description */
-  color: white;
-   /* Text color for description */
-   margin:20px;
 }
 
 .download-btn {
